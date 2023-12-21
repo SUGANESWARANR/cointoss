@@ -1,0 +1,46 @@
+.bg {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  font-size: 15px;
+  margin: 10px;
+}
+.paragraph {
+  color: #334155;
+  margin: 10px;
+}
+.img {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.paras {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #334155;
+  margin: 10px;
+  padding-left: 10px;
+}
